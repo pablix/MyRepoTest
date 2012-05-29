@@ -1,17 +1,6 @@
 AsciiDoc Home Page
 ==================
 
-
-[source,perl]
-----
-# *Source* block
-# Use: highlight code listings
-# (require `source-highlight` or `pygmentize`)
-use DBI;
-my $dbh = DBI->connect('...',$u,$p)
-    or die "connect: $dbh->errstr";
-----
-
 // Web page meta data.
 :keywords:    AsciiDoc, DocBook, EPUB, PDF, ebooks, slideshow, slidy, man page
 :description: AsciiDoc is a text document format for writing notes,  +
